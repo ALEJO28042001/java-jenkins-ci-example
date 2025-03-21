@@ -24,7 +24,6 @@ steps {
 bat 'mvn package'
 }
 }
-
 post {
 success {
 echo 'La compilacion y las pruebas fueron exitosas.'
@@ -33,3 +32,4 @@ failure {
 echo 'Hubo errores en la compilacion o en las pruebas.'
 }
 }
+
